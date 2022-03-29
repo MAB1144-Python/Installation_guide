@@ -1,60 +1,52 @@
 # Installation_guide
 
-installation guide SLAM REC-HV
+## installation guide SLAM REC-HV
 
-Guía instalacion ROS completa
+## Guía instalacion ROS completa
 
-Ing. Brayan Andru Montenegro Embus
+## Ing. Brayan Andru Montenegro Embus
 
-bamontenegro@unicauca.edu.co
+## bamontenegro@unicauca.edu.co
 
-1.Instalaciòn de ROS
+## 1.Instalaciòn de ROS
 
 #### https://www.youtube.com/watch?v=9uyiYlgkrRY
 
 #### http://wiki.ros.org/melodic/Installation/Ubuntu
 
-2.instalación de python 3,6
+## 2.instalación de python 3,6
 
 #### https://medium.com/@inderpreetsinghchhabra/using-python3-with-ros-kinetic-2488354efece
 
-Activación cada vez que se va a trabajar
+## Activación cada vez que se va a trabajar
 
 #### cd ~/python36_ws
 
 #### source py36env/bin/activate
 
-Instalación de la tarjeta grafica
-
-tener cuidado que si no esta el driver compatible de la tarjeta puede presentar problemas
-
-grabes posteriores, si no mejor no instale la tarjeta
-
-#### https://ubunlog.com/como-instalar-los-drivers-de-video-nvidia-en-ubuntu-18-04/
-
-3.Configuración espacio de trabajo
+## 3.Configuración espacio de trabajo
 
 #### http://wiki.ros.org/es/ROS/Tutoriales/catkin/CreateWorkspace
 
-4.Instal pip
+## 4.Instal pip
 
 #### sudo apt update
 
 #### apt install python3-pip
 
-5.Instalación OPENNI
+## 5.Instalación OPENNI
 
 #### sudo apt-get install ros-melodic-openni-camera
 
 #### sudo apt-get update
 
-6.Instalación de RPLIDAR
+## 6.Instalación de RPLIDAR
 
 #### sudo apt-get install ros-melodic-rplidar-ros
 
 #### sudo apt-get update
 
-7.Instalación de opencv
+## 7.Instalación de opencv
 
 #### sudo pip3 install scikit-build
 
@@ -62,11 +54,11 @@ grabes posteriores, si no mejor no instale la tarjeta
 
 #### https://linuxize.com/post/how-to-install-opencv-on-ubuntu-18-04/
 
-8.librerias kinect
+## 8.librerias kinect
 
 #### sudo apt-get install python-freenect
 
-9.modulos sobre el entorno virtual
+## 9.modulos sobre el entorno virtual
 
 #### cd
 
@@ -104,7 +96,7 @@ grabes posteriores, si no mejor no instale la tarjeta
 
 #### sudo apt-get install ros-melodic-openni-camera ros-melodic-openni-launch
 
-10.ORB-SLAM
+## 10.ORB-SLAM
 
 #### pip3 install pykalman
 
