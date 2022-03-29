@@ -146,6 +146,6 @@
 
 #### chmod +x build.sh ./build.sh
 
-11.crear projectos ROS
+##  11.crear projectos ROS
 
 #### http://wiki.ros.org/ROS/Tutorials/CreatingPackage
