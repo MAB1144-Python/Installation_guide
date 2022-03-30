@@ -124,7 +124,7 @@ cd ~/catkin_ws
 catkin_make
 . ~/catkin_ws/devel/setup.bash
 ```
-#Execution Rec_HV
+# Execution Rec_HV
 #### now to run the code connect the RPLIDARA1 and Kinect sensors with adapter to USB type A.
 #### and execute the following lines on a terminal.
 ```linux
@@ -132,7 +132,10 @@ cd ~/python36_ws
 source py36env/bin/activate
 cd
 cd catkin_ws/src/rdslam/src
-sudo chmod 666 /dev/ttyUSB0
+sudo chmod 666 /dev/ttyUSB0.
+```
+#### Launch Rec-HV.
+```linux
 roslaunch rdslam Rec_HV.launch
 ```
 
