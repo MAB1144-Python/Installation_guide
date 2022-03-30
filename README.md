@@ -45,31 +45,28 @@ source devel/setup.bash
 echo $ROS_PACKAGE_PATH
 /home/youruser/catkin_ws/src:/opt/ros/kinetic/share
 ```
-## 5. Instal pip
+## 5. Install pip.
 ```linux
 sudo apt update
 apt install python3-pip
 ```
-## 6. Instalación OPENNI
+## 6. Install OPENNI.
 ```linux
 sudo apt-get install ros-melodic-openni-camera
+sudo apt-get install python-freenect
 sudo apt-get update
 ```
-## 7. Instalación de RPLIDAR
+## 7. Install RPLIDAR.
 ```linux
 sudo apt-get install ros-melodic-rplidar-ros
 sudo apt-get update
 ```
-## 8. Instalación de opencv
+## 8. Install OpenCV
 ```linux
 sudo pip3 install scikit-build
 sudo pip3 install opencv-python
 ```
-## 9. librerias kinect
-```linux
-sudo apt-get install python-freenect
-```
-## 10. modulos sobre el entorno virtual
+## 9. Dependencies.
 ```linux
 cd
 pip install rospkg
@@ -90,7 +87,7 @@ sudo git clone https://github.com/Slamtec/rplidar_ros.git
 catkin_make
 sudo apt-get install ros-melodic-openni-camera ros-melodic-openni-launch
 ```
-## 11. ORB-SLAM
+## 10. ORB-SLAM installation and dependencies.
 ```linux
 pip3 install pykalman
 pip3 install serial
@@ -114,14 +111,14 @@ git clone https://github.com/raulmur/ORB_SLAM2.git ORB_SLAM2
 cd ORB_SLAM2
 chmod +x build.sh ./build.sh
 ```
-## 12.Creating a catkin Package rdslam for Rec-HV execution
+## 11. Creating a catkin Package rdslam for Rec-HV execution.
 ```linux
 cd ~/catkin_ws/src
 catkin_create_pkg rdslam std_msgs rospy roscpp
 ```
 #### save and replace what is at this address in the project folder.
 https://github.com/MAB1144-Python/SLAM-REC-HV-version-1.0-test/tree/main/rdslam
-## 13.Build a catkin workspace and sourcing the setup file in ROS.
+## 12. Build a catkin workspace and sourcing the setup file in ROS.
 ```linux
 cd ~/catkin_ws
 catkin_make
