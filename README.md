@@ -3,7 +3,7 @@
 #### Popayán, Cauca, Colombia.
 #### bamontenegro@unicauca.edu.co
 
-## 1.ROS installation and dependencies.
+## 1. ROS installation and dependencies.
 ```linux
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 sudo apt install curl # if you haven't already installed curl
@@ -17,7 +17,7 @@ sudo apt install python-rosdep
 sudo rosdep init
 rosdep update
 ```
-## 2.installation of python 3.6.
+## 2. installation of python 3.6.
 ```linux
 sudo apt-get install python3-pip python3-yaml python3-dev
 sudo pip3 install rospkg catkin_pkg rosdep rosinstall_generator rosinstall wstool vcstools catkin_tools
