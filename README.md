@@ -100,7 +100,7 @@ sudo apt-get install libeigen3-dev
 sudo apt-get install -y doxygen libgl1-mesa-dev libglew-dev cmake libboost-all-dev
 sudo apt-get update -y
 sudo apt-get install -y libsdl-pango-dev
-sudo apt-get install ros-indigo-libg2o
+sudo apt-get install ros-___rosdependencia_____-libg2o
 sudo apt-get install autoconf
 sudo apt-get install wayland-protocols
 sudo apt install libopenexr22
@@ -109,7 +109,8 @@ sudo apt install libopenexr-dev
 cd catkin_ws
 git clone https://github.com/raulmur/ORB_SLAM2.git ORB_SLAM2
 cd ORB_SLAM2
-chmod +x build.sh ./build.sh
+chmod +x build.sh 
+./build.sh
 ```
 ## 11. Creating a catkin Package rdslam for Rec-HV execution.
 ```linux
